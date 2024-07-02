@@ -1,0 +1,15 @@
+{
+    "package": "net.perpetualeve.statgostonks.mixin",
+    "required": true,
+    "refmap": "statgostonks.refmap.json",
+    "minVersion": "0.8.5",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "ItemStackMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 0
+    }
+}
